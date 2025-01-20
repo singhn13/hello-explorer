@@ -1,0 +1,81 @@
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.page {
+    text-align: center;
+    max-width: 900px;
+    padding: 60px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.card, .card2 {
+    width: 150px;
+    text-decoration: none;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.circle-icon {
+    width: 100px;
+    height: 100px;
+    background: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.circle-icon.selected {
+    box-shadow: 0 0 25px 10px rgba(255, 255, 255, 0.6);
+    transform: scale(1.2);
+}
+
+.card:hover .circle-icon, .card2:hover .circle-icon {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5);
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+}
+
+.label {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.jersey-15-regular {
+    font-family: "Jersey 15", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.5rem;
+  }
+
+.content p {
+    font-size: 1.2rem;
+    color: #bbb;
+    font-family: Roboto, sans-serif;
+    line-height: 2;
+    width: 850px;
+    text-align: center;
+}
